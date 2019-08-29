@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    height: 50px;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form img {
+    background-color: rgba(0, 0, 0, .05);
+    padding: 10px;
+    height: 20px;
+}
+
+#input-search {
+    width: 500;
+    border: none;
+    background-color: rgba(0, 0, 0, .05);
+    font-size: 14px;
+    height: 40px;
+    margin: 0;
+}
+#btn{
+    background-color: #fb3e44;
+    color: white;
+    padding: 8px 16px;
+    margin: 0;
+    font-size: 14px;
+    height: 40px;
+    border: none;
+}
+
+/*.second-bar > input{
+    height: 50px;
+    padding:5px;
+    margin-left: 0;
+}*/
+
+.second-bar>img {
+    width: 80px;
+}
+
+#company-description img {
+    width: 25%;
+    height: 25%;
+    padding: 30px;
+    margin: 5%;
+}
+
+#company-description article {
+    margin: auto 20%;
+    text-align: center;
+    padding: 20px 35px;
+}
+
+#initial-section article {
+    margin: 5% 25% ;
+    text-align: center;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+
+#company-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+#company-description h2 {
+    padding: 0 10px;
+}
+
+#company-description article {
+    padding: 20px 25px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 5%;
+    padding: auto 0;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 35px;
+    background-color: rgba(255, 204, 53, .4);
+    transform: skew(9deg, 0deg);
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    color: #ED1C24;
+    font-size:16px;
+
+}
+
+#initial-section {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(232, 217, 217, .3);
+    margin: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#subsection img {
+    height: 32;
+}
+
+.box-description>div {
+    size: 1.7em;
+    text-align: left;
+    border: none;
+    margin:0;
+    width: 18%;
+    padding: 2em;
+}
+
+#subsection {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0 10px; */
+    /*margin: 0 50px;*/
+}
+
+#subsection h3,
+article,
+img {
+    text-align: left;
+    padding: 5px;
+}
+
+.create-org-btn {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    height: 50px;
+    width: 350px;
+    border: 0;
+    box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+    font-size: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10 auto 30;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 75px 0;
+    border: none;
+}
+
+
+#join-btn {
+    color: black;
+    padding: 0.1em 1em;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#log-in-btn {
+    color: black;
+    padding: 1em 1.5em;
+    border: none;
+    text-decoration: none;
+}
+
+#plans-btn {
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+    color: white;
+    padding: .5em 2.5em;
+    margin: auto 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#join-4free-btn {
+    background-color: white;
+    color: black;
+    padding: .5em 2.5em;
+    border: none;
+    text-decoration-line:none;
+    font-size: 20px;
+    font-weight: 900;
+    margin: auto 20px;
+}
